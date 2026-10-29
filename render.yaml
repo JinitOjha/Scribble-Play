@@ -1,0 +1,12 @@
+# Render Blueprint — one web service serves both the React build and the Socket.IO server.
+services:
+  - type: web
+    name: scribble-party
+    runtime: node
+    plan: free
+    buildCommand: npm run build
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: 20
