@@ -2,7 +2,7 @@
 
 Real-time multiplayer drawing & guessing game. One player draws a secret word, everyone else races to guess it in chat; faster guesses earn more points.
 
-**Live demo:** `(https://scribble-party-z5m7.onrender.com)` &nbsp;
+**Live demo:** [Play Scribble Party](https://scribble-party-z5m7.onrender.com)
 
 **Stack:** React + TypeScript + Vite · HTML5 Canvas · Node.js + Express · Socket.IO
 
